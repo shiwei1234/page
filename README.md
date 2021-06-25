@@ -2,7 +2,7 @@
 分页用到工具类
 包括PagingInfo、PagingQueryBean、PagingResultBean
 使用代码如下
-
+#
 public AjaxResult findAllOneSelf(@RequestBody PagingQueryBean<HeartTravel> query) {
 		//创建分页信息
 		PagingInfo pageInfo = query.getPageInfo();
