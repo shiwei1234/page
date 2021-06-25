@@ -15,6 +15,9 @@ public AjaxResult findAllOneSelf(@RequestBody PagingQueryBean<HeartTravel> query
 		result.setResult(page);
 		return AjaxResult.success(result);	
 	}
+	
+	
+#
   PageHelper插件需要在pom中添加依赖
   <dependency>
 			<groupId>com.github.pagehelper</groupId>
